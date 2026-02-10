@@ -39,7 +39,7 @@ Se evaluaron múltiples enfoques para determinar el mejor equilibrio entre preci
 | Lasso (L1) | 0.9267 | Útil para simplificación del modelo. |
 
 ### Visualización del Rendimiento
-![Model Comparison](output/model_comparison.png)
+![Model Comparison](https://github.com/Ivan-Her-Alf/AnalisisEstadisticos_Clas/blob/main/files/model_comparison.png)
 
 > **Insight Técnico:** La diferencia de rendimiento entre los modelos lineales (~92%) y los basados en árboles (~100%) sugiere que la relación entre variables climáticas (Humedad, Temperatura) no es lineal, sino que sigue umbrales de decisión estrictos.
 
@@ -49,7 +49,7 @@ Para un rol de Business Intelligence, la **explicabilidad** es clave. A diferenc
 
 Analizando el árbol generado por el modelo:
 
-![Decision Tree](output/decision_tree_viz.png)
+![Decision Tree](https://github.com/Ivan-Her-Alf/AnalisisEstadisticos_Clas/blob/main/files/decision_tree_viz.png)
 
 **Reglas Descubiertas:**
 1.  **El factor crítico:** La variable raíz es la **Humedad**.
@@ -71,7 +71,7 @@ Esto permite a los stakeholders confiar en el modelo entendiendo la lógica detr
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/weather-prediction-ml.git](https://github.com/tu-usuario/weather-prediction-ml.git)
+    git clone [https://github.com/Ivan-Her-Alf/AnalisisEstadisticos_Clas.git]
     ```
 2.  **Instalar dependencias:**
     ```bash
@@ -81,5 +81,5 @@ Esto permite a los stakeholders confiar en el modelo entendiendo la lógica detr
     Asegúrate de tener tu archivo `kaggle.json` en la carpeta `.kaggle` de tu usuario.
 4.  **Ejecutar el Pipeline:**
     ```bash
-    python src/main.py
+    python src/Clas_methods.py
     ```
