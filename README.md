@@ -79,7 +79,3 @@ Esto permite a los stakeholders confiar en el modelo entendiendo la lógica detr
     ```
 3.  **Configurar Credenciales:**
     Asegúrate de tener tu archivo `kaggle.json` en la carpeta `.kaggle` de tu usuario.
-4.  **Ejecutar el Pipeline:**
-    ```bash
-    python src/Clas_methods.py
-    ```
